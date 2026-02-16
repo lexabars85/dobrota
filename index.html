@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Служба перевозки пациентов</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="bg-orbit" aria-hidden="true"></div>
+    <header class="top">
+      <div class="logo">
+        <div class="logo-mark">+</div>
+        <div class="logo-text" data-site-name>Название</div>
+      </div>
+      <div class="contact">
+        <div class="phone-stack" data-phone-stack>
+          <a class="btn btn-call btn-phone" data-cta-link data-phone-text href="tel:+70000000000">8 900 123 45 67</a>
+        </div>
+        <div class="icon-actions">
+          <a class="icon-btn btn-tg" data-tg-link href="https://t.me/Evgeny4585" target="_blank" rel="noopener" aria-label="Telegram">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M20.7 4.6c.5-.2 1 .3.9.8l-3 13.8c-.1.6-.8.9-1.3.6l-4.1-3-2 1.9c-.2.2-.6.1-.6-.2l.2-4.2L18 7.2c.3-.3 0-.7-.4-.5l-9 4.9-4-.9c-.6-.1-.6-1 .1-1.2l16-5.9Z" fill="currentColor"/>
+              </svg>
+            </span>
+          </a>
+          <a class="icon-btn btn-max" data-max-link href="https://max.ru/u/f9LHodD0cOK1SK9ZCqLkDDSRr3GqiB4UMKu90KKONT6fsWZQu3pCcVkOMgs" target="_blank" rel="noopener" aria-label="MAX">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3c4.4 0 8 3.1 8 7s-3.6 7-8 7c-.8 0-1.6-.1-2.3-.3L6 20.5c-.4.3-1-.1-.8-.6l1-3.3C4.8 15.6 4 13.9 4 12c0-3.9 3.6-9 8-9Z" fill="currentColor"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Транспортировка</p>
+          <h1 data-tagline>Бережная перевозка</h1>
+          <p class="sub" data-subtagline>Город и межгород</p>
+          <div class="hero-actions">
+            <div class="action-row">
+              <a class="btn big btn-call" data-cta-link data-cta href="tel:+70000000000">
+                <span class="icon icon-round" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <circle class="icon-bg" cx="24" cy="24" r="22"/>
+                    <path class="icon-phone" d="M16.2 12.4c.7-1.4 2.4-2 3.8-1.3l3.2 1.6c1.4.7 2 2.4 1.3 3.8l-1.4 2.8c-.4.8-.3 1.8.3 2.5a18 18 0 0 0 5.6 5.6c.7.5 1.7.7 2.5.3l2.8-1.4c1.4-.7 3.1-.1 3.8 1.3l1.6 3.2c.7 1.4.1 3.1-1.3 3.8l-2.7 1.4c-2.2 1.1-4.7 1.3-7 .7-4.6-1.4-8.9-4.1-12.6-7.9-3.8-3.8-6.5-8.1-7.9-12.6-.7-2.3-.5-4.8.7-7l1.4-2.7Z"/>
+                  </svg>
+                </span>
+                <span>Позвонить</span>
+              </a>
+              <a class="btn big btn-tg" data-tg-link href="https://t.me/Evgeny4585" target="_blank" rel="noopener">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M20.7 4.6c.5-.2 1 .3.9.8l-3 13.8c-.1.6-.8.9-1.3.6l-4.1-3-2 1.9c-.2.2-.6.1-.6-.2l.2-4.2L18 7.2c.3-.3 0-.7-.4-.5l-9 4.9-4-.9c-.6-.1-.6-1 .1-1.2l16-5.9Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span>Telegram</span>
+              </a>
+              <a class="btn big btn-max" data-max-link href="https://max.ru/u/f9LHodD0cOK1SK9ZCqLkDDSRr3GqiB4UMKu90KKONT6fsWZQu3pCcVkOMgs" target="_blank" rel="noopener">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 3c4.4 0 8 3.1 8 7s-3.6 7-8 7c-.8 0-1.6-.1-2.3-.3L6 20.5c-.4.3-1-.1-.8-.6l1-3.3C4.8 15.6 4 13.9 4 12c0-3.9 3.6-9 8-9Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span>MAX</span>
+              </a>
+            </div>
+            <div class="note" data-coverage>Работаем в вашем городе</div>
+          </div>
+        </div>
+      </section>
+      <section class="company">
+        <div class="hero-card">
+          <div class="card-title" data-company-title>О компании</div>
+          <p data-company-about>Коротко о сервисе.</p>
+          <ul data-company-list></ul>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="section-title" data-benefits-title>Почему нам доверяют</div>
+        <div class="benefit-grid" data-benefits></div>
+      </section>
+    </main>
+    <footer class="foot">
+      <div class="foot-left">
+        <div class="foot-name" data-site-name>Название</div>
+        <div class="foot-note">Работаем круглосуточно</div>
+      </div>
+      <div class="foot-phones" data-foot-phones>
+        <a class="phone" data-phone-link data-phone-text href="tel:+70000000000">Телефон</a>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script>
+      (function () {
+        var data = window.SITE_DATA || {};
+
+        function setText(selector, value) {
+          document.querySelectorAll(selector).forEach(function (el) {
+            el.textContent = value;
+          });
+        }
+
+        function setTel(phoneRaw, phoneDisplay) {
+          document.querySelectorAll("[data-phone-link]").forEach(function (el) {
+            el.setAttribute("href", "tel:" + phoneRaw);
+          });
+          setText("[data-phone-text]", phoneDisplay);
+        }
+
+        function setCta(label, phoneRaw) {
+          document.querySelectorAll("[data-cta]").forEach(function (el) {
+            el.textContent = label;
+          });
+          document.querySelectorAll("[data-cta-link]").forEach(function (el) {
+            el.setAttribute("href", "tel:" + phoneRaw);
+          });
+        }
+
+        setText("[data-site-name]", data.siteName || "Служба перевозки пациентов");
+        setText("[data-tagline]", data.tagline || "");
+        setText("[data-subtagline]", data.subtagline || "");
+        setText("[data-company-title]", data.companyTitle || "");
+        setText("[data-company-about]", data.companyAbout || "");
+        setText("[data-benefits-title]", data.benefitsTitle || "");
+        setText("[data-coverage]", data.coverage || "");
+        setTel(data.phoneRaw || "+70000000000", data.phoneDisplay || "Телефон");
+        setCta(data.ctaLabel || "Позвонить", data.phoneRaw || "+70000000000");
+
+        var phoneStack = document.querySelector("[data-phone-stack]");
+        var footPhones = document.querySelector("[data-foot-phones]");
+        if (Array.isArray(data.phoneButtons)) {
+          if (phoneStack) {
+            phoneStack.innerHTML = "";
+          }
+          if (footPhones) {
+            footPhones.innerHTML = "";
+          }
+          data.phoneButtons.forEach(function (item) {
+            if (phoneStack) {
+              var link = document.createElement("a");
+              link.className = "btn btn-call btn-phone";
+              link.href = "tel:" + item.raw;
+              link.textContent = item.label;
+              phoneStack.appendChild(link);
+            }
+            if (footPhones) {
+              var footLink = document.createElement("a");
+              footLink.className = "phone";
+              footLink.href = "tel:" + item.raw;
+              footLink.textContent = item.label;
+              footPhones.appendChild(footLink);
+            }
+          });
+        }
+
+        var list = document.querySelector("[data-company-list]");
+        list.innerHTML = "";
+        (data.companyList || []).forEach(function (item) {
+          var li = document.createElement("li");
+          li.textContent = item;
+          list.appendChild(li);
+        });
+
+        var grid = document.querySelector("[data-benefits]");
+        grid.innerHTML = "";
+        (data.benefits || []).forEach(function (item, idx) {
+          var card = document.createElement("div");
+          card.className = "benefit-card";
+          card.style.setProperty("--delay", idx + 1);
+          var title = document.createElement("div");
+          title.className = "benefit-title";
+          title.textContent = item.title;
+          var text = document.createElement("div");
+          text.className = "benefit-text";
+          text.textContent = item.text;
+          card.appendChild(title);
+          card.appendChild(text);
+          grid.appendChild(card);
+        });
+
+        document.title = (data.siteName || "Служба перевозки пациентов") + (data.tagline ? " — " + data.tagline : "");
+      })();
+    </script>
+  </body>
+</html>
